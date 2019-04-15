@@ -23,9 +23,27 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+body{
+  font-family:"Helvetica", sans-serif;
+}
 header{
   background-color:black;
   color:white;
+}
+.white{
+  color:white;
+}
+img{
+  width: 100%;
+}
+.tile{
+  width:50%;
+}
+.tile:nth-of-type(even){
+  float:right;
+}
+.tile:nth-of-type(odd){
+  float:left;
 }
 /*
  * Remove text-shadow in selection highlight:
