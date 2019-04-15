@@ -27,18 +27,42 @@ body{
   font-family:"Helvetica", sans-serif;
 }
 header{
+  padding:20px;
   background-color:black;
   color:white;
 }
 .white{
   color:white;
 }
+h1{
+  font-size:36pt;
+}
 img{
   width: 100%;
+  position:relative;
+}
+section{
+  padding:20px;
+  border-bottom: 3px solid lightgray;
+}
+footer{
+  padding:20px;
+}
+.landing{
+  padding:0px;
 }
 .tile{
   width:50%;
   position:relative;
+}
+.tile img{
+  opacity: 0.3
+}
+.tile:hover img{
+  opacity: 1;
+}
+.tile:hover{
+  color:white;
 }
 .tile:nth-of-type(even){
   float:right;
@@ -52,6 +76,10 @@ img{
   left: 50%;
   transform: translate(-50%, -50%);
   z-index:+50;
+}
+.center-align{
+  text-align:center;
+  top: 50%;
 }
 /*
  * Remove text-shadow in selection highlight:
