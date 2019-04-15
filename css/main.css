@@ -23,6 +23,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+header{
+  background-color:black;
+  color:white;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
